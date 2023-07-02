@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    margin-inline: auto;
+    width: 142rem;
+    font-family:'Exo 2';
+}
+header{
+    background-color: #fffafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 300;
+    width: 140rem;
+}
+section{
+    background-color:#fffafa ;
+}
+footer{
+    background-color: brown;
+}
+main{
+    background-color: #fffafa;
+}
+header > nav > ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 45rem;
+    padding-left: 45rem;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: rgb(197, 141, 243);
+}
+header > .logo > img{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+header > .actions > button{
+    appearance: none;
+    border: none;
+    background-color: rgb(212, 169, 247);
+    color: white;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+    border-radius: 0.75rem;
+    width: 14rem;
+    height: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+#Home{
+    display: flex;
+}
+[alt="hero"]{
+    height: 75rem;
+    padding-left: 5rem;
+    padding-bottom: 100rem;
+
+}
+.home-content{
+    padding-right: 8rem;
+    padding-left: 0rem;
+    margin: 0rem;
+    align-items: center;
+}
+#Job{
+    font-family: 'Times New Roman';
+    font-weight: 545;
+    padding-left: 15rem;
+    padding-top: 27rem;
+    font-size: 40px;
+    color: rgb(61, 62, 131);
+}
+#Lorem_1{
+    padding-top: 5rem;
+    padding-left: 15rem;
+    text-decoration: none;
+    font-weight: 200;
+}
+header > .actions > button a:hover{
+    background-color: rgb(192, 139, 236);
+    padding: 2rem;
+    border-radius: 0.75rem;
+}
+.linkedin{
+    width: 2rem ;
+    height: 2rem;
+    padding-right: 0rem;
+}
+.home{
+    background-color: #fffafa;
+    align-items: center;
+    padding-left: 1rem;
+}
